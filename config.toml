@@ -1,0 +1,42 @@
+[paths]
+ohlcv_dir = "data/ohlcv_5m"
+mark_dir = "data/mark_5m"
+funding_dir = "data/funding"
+output_dir = "reports/generated"
+
+[data]
+start = "2020-01-01"
+end = "2026-09-01" # exclusive; last expected complete month is 2026-08
+verify_official_checksums = true
+
+[strategy]
+initial_equity = 2000.0
+exchange_leverage = 3.0
+max_cycle_notional_fraction = 0.80
+base_order_fraction = 0.15
+safety_order_fraction = 0.13
+safety_levels = [-0.04, -0.09, -0.16, -0.26, -0.40]
+take_profit_activation = 0.015
+trailing_drawdown = 0.005
+hard_equity_floor_fraction = 0.55
+emergency_margin_ratio = 0.50
+research_maintenance_margin_rate = 0.01
+taker_fee_rate = 0.0005
+slippage_rate = 0.0005
+quantity_step = 0.001
+cooldown_to_next_4h = true
+halt_after_risk_exit = true
+
+[ml]
+test_start = "2022-04-01"
+train_months = 24
+validation_months = 3
+test_months = 3
+step_months = 3
+label_horizon_bars = 42
+unsafe_drawdown = -0.12
+on_threshold = 0.25
+off_threshold = 0.35
+on_confirmation_bars = 2
+primary_model = "lightgbm"
+
