@@ -1,4 +1,4 @@
-time,cycle_id,side,reason,reference_price,fill_price,qty,position_qty,average_price,notional,fee,slippage_cost,p_unsafe,ml_on,gross_pnl,ambiguous_bar
+﻿time,cycle_id,side,reason,reference_price,fill_price,qty,position_qty,average_price,notional,fee,slippage_cost,p_unsafe,ml_on,gross_pnl,ambiguous_bar
 2022-04-01 00:00:00+00:00,1,BUY,Base,45505.9,45528.652949999996,0.006,0.006,45528.652949999996,273.1719177,0.13658595885,0.1365176999999676,,True,,False
 2022-04-01 15:00:00+00:00,1,SELL,trailing_stop_same_bar,46096.7,46073.65165,0.006,0.0,45528.652949999996,276.4419099,0.13822095495,0.1382900999999838,,True,3.2699922000000226,True
 2022-04-01 16:00:00+00:00,2,BUY,Base,46523.6,46546.8618,0.006,0.006,46546.8618,279.2811708,0.1396405854,0.13957080000000133,,True,,False

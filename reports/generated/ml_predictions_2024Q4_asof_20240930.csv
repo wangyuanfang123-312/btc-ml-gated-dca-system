@@ -1,4 +1,4 @@
-signal_available_at_utc,first_execution_5m_bar_utc,fold,model,p_unsafe_next_42x4h,probability_band,unsafe_call_gt_35pct,gate_state
+﻿signal_available_at_utc,first_execution_5m_bar_utc,fold,model,p_unsafe_next_42x4h,probability_band,unsafe_call_gt_35pct,gate_state
 2024-10-01 00:00:00+00:00,2024-10-01 00:00:00+00:00,11,lightgbm,0.05743953967864285,below_25pct,False,OFF
 2024-10-01 04:00:00+00:00,2024-10-01 04:00:00+00:00,11,lightgbm,0.0460708914974067,below_25pct,False,ON
 2024-10-01 08:00:00+00:00,2024-10-01 08:00:00+00:00,11,lightgbm,0.039698383289756174,below_25pct,False,ON

@@ -1,4 +1,4 @@
-time,cycle_id,side,reason,reference_price,fill_price,qty,position_qty,average_price,notional,fee,slippage_cost,p_unsafe,ml_on,gross_pnl,ambiguous_bar
+﻿time,cycle_id,side,reason,reference_price,fill_price,qty,position_qty,average_price,notional,fee,slippage_cost,p_unsafe,ml_on,gross_pnl,ambiguous_bar
 2020-01-01 00:00:00+00:00,1,BUY,Base,7189.43,7193.024715,0.041,0.041,7193.024715,294.914013315,0.1474570066575,0.14738331499997004,,True,,False
 2020-01-03 01:35:00+00:00,1,BUY,SO1,6905.3037263999995,6908.756378263199,0.037,0.078,7058.179478342799,255.62398599573834,0.12781199299786916,0.12774811893837068,,True,,False
 2020-01-03 04:40:00+00:00,1,SELL,trailing_stop_same_bar,7018.14,7014.63093,0.078,0.0,7058.179478342799,547.14121254,0.27357060627,0.27370746000000507,,True,-3.3967867707382684,True
