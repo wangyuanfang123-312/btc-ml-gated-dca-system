@@ -268,4 +268,3 @@ def ensure_supplemental_archives(mark_dir: Path, funding_dir: Path, months: list
             family, _ = future.result()
             done[family] += 1
     return done
-

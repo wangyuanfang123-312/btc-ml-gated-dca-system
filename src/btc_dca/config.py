@@ -42,4 +42,3 @@ def load_config(path: str | Path = "config.toml") -> AppConfig:
         ml=raw["ml"],
     )
 
-

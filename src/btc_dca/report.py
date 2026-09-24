@@ -303,4 +303,3 @@ Unsafe 标签正例率：{_fmt(quality['label_positive_rate'], pct=True)}。输�
     path = output / "RESULTS.md"
     path.write_text(report, encoding="utf-8")
     return path
-

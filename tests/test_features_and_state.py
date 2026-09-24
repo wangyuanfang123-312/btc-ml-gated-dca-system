@@ -33,4 +33,3 @@ def test_hysteresis_requires_two_low_bars_and_one_high_bar_turns_off():
     state = hysteresis(probs)
     assert state.tolist() == [False, True, True, True, False, False, True]
 
-

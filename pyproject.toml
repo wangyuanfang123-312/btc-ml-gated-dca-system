@@ -30,4 +30,3 @@ where = ["src"]
 testpaths = ["tests"]
 addopts = "-q"
 
-

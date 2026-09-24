@@ -178,4 +178,3 @@ Unsafe 标签正例率：11.930%。输入来源与校验结果见 `data_quality.
 - `oos_period_comparison.csv`：连续样本外曲线按 Walk-Forward 测试窗口的收益、回撤与已完成 Cycle 归因。
 - `stress_results.csv`：各压力情景结果。
 - `features_4h.parquet`：特征、前瞻标签及 4H 行情。
-

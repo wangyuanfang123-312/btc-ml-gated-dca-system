@@ -234,4 +234,3 @@ def run_research(cfg: AppConfig, download_supplemental: bool = True) -> dict:
     return {"quality": quality, "summary": summary_frame, "walk_forward_folds": len(wf.folds),
             "stress_scenarios": len(stress), "v3_status": "ran" if mark_is_complete_for_oos else "blocked: missing official mark bars in OOS",
             "output_dir": str(output.resolve())}
-

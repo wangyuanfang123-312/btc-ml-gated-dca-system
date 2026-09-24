@@ -34,4 +34,3 @@ reports/generated/*
 !reports/generated/V2_oos_trades.csv
 !reports/generated/V2_oos_equity.parquet
 *.log
-

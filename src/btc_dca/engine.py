@@ -453,4 +453,3 @@ def summarize_backtest(equity: pd.DataFrame, trades: pd.DataFrame, cycles: pd.Da
         "ml_off_fraction": float((~equity["ml_on"]).mean()) if equity["p_unsafe"].notna().any() else np.nan,
         "equity_floor_hits": int((trades.get("reason", pd.Series(dtype=str)) == "hard_equity_floor").sum()),
     }
-

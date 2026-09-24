@@ -73,4 +73,3 @@ def run_stress_suite(bars: pd.DataFrame, mark: pd.DataFrame, funding: pd.DataFra
     result["crash_timestamp"] = None
     result.loc[result["scenario"].str.startswith("single_5m_gap_"), "crash_timestamp"] = crash_time.isoformat()
     return result
-

@@ -106,4 +106,3 @@ def test_crash_stress_changes_one_bar_and_keeps_following_prices():
     assert stressed.iloc[2]["high"] == 100.0
     assert stressed.iloc[3].equals(bars.iloc[3])
     assert stressed_mark.iloc[3].equals(mark.iloc[3])
-

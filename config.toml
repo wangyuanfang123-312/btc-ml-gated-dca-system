@@ -39,4 +39,3 @@ on_threshold = 0.25
 off_threshold = 0.35
 on_confirmation_bars = 2
 primary_model = "lightgbm"
-

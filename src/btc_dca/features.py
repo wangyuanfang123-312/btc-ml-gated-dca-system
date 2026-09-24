@@ -95,4 +95,3 @@ def build_features_and_label(
     data.loc[data["future_min_drawdown"].isna(), "unsafe"] = np.nan
     data[FEATURE_COLUMNS] = data[FEATURE_COLUMNS].replace([np.inf, -np.inf], np.nan)
     return data
-

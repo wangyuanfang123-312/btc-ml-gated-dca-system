@@ -212,4 +212,3 @@ def walk_forward(
     folds = pd.DataFrame(fold_rows)
     importance = pd.DataFrame(importance_rows)
     return WalkForwardResult(predictions, folds, importance)
-
